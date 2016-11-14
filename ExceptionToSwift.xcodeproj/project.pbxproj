@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96517BB1DD9EBED0067A321 /* ExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D96517B91DD9EBED0067A321 /* ExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96517BC1DD9EBED0067A321 /* ExceptionHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = D96517BA1DD9EBED0067A321 /* ExceptionHandler.mm */; };
 		D9C93E891DD9E72800F8FA0A /* ExceptionToSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C93E871DD9E72800F8FA0A /* ExceptionToSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D96517B91DD9EBED0067A321 /* ExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandler.h; sourceTree = "<group>"; };
+		D96517BA1DD9EBED0067A321 /* ExceptionHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExceptionHandler.mm; sourceTree = "<group>"; };
 		D9C93E841DD9E72800F8FA0A /* ExceptionToSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExceptionToSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C93E871DD9E72800F8FA0A /* ExceptionToSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionToSwift.h; sourceTree = "<group>"; };
 		D9C93E881DD9E72800F8FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 			children = (
 				D9C93E871DD9E72800F8FA0A /* ExceptionToSwift.h */,
 				D9C93E881DD9E72800F8FA0A /* Info.plist */,
+				D96517B91DD9EBED0067A321 /* ExceptionHandler.h */,
+				D96517BA1DD9EBED0067A321 /* ExceptionHandler.mm */,
 			);
 			path = ExceptionToSwift;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C93E891DD9E72800F8FA0A /* ExceptionToSwift.h in Headers */,
+				D96517BB1DD9EBED0067A321 /* ExceptionHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96517BC1DD9EBED0067A321 /* ExceptionHandler.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				D9C93E8E1DD9E72800F8FA0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
